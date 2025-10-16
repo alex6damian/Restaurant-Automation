@@ -1,0 +1,17 @@
+# framework principal
+Django>=5.0,<6.0
+
+# driver pentru PostgreSQL (dacă vei folosi baza de date)
+psycopg2-binary>=2.9
+
+# utilitar pentru variabile de mediu (.env)
+python-dotenv>=1.0.0
+
+# extensii utile pentru Django (shell_plus, modelviz, etc.)
+django-extensions>=3.2
+
+# CORS (dacă vrei să permiți frontendului să comunice cu backendul)
+django-cors-headers>=4.3
+
+# REST API (dacă vrei API-uri)
+djangorestframework>=3.15
