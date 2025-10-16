@@ -80,14 +80,11 @@ DATABASES = {
         "NAME": os.environ.get("POSTGRES_DB", "mydb"),
         "USER": os.environ.get("POSTGRES_USER", "myuser"),
         "PASSWORD": os.environ.get("POSTGRES_PASSWORD", "mypassword"),
-        "HOST": os.environ.get("DATABASE_HOST", "localhost"),
+        "HOST": os.environ.get("DATABASE_HOST", "db"),
         "PORT": os.environ.get("DATABASE_PORT", "5432"),
-        # recomandat pentru producție: connection pooling
         "CONN_MAX_AGE": int(os.environ.get("CONN_MAX_AGE", 60)),
     }
 }
-
-
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
 
