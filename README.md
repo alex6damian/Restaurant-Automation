@@ -1,4 +1,4 @@
-# Restaurant-Automation
+# Updates
 
-Accesare baza de date:
-docker compose exec db psql -U myuser -d mydb
+## Version 1.0
+### Project rebase, config files, database creation
