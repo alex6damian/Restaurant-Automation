@@ -29,7 +29,6 @@ services:
       db:
         condition: service_healthy
     # command is handled by entrypoint; keep build default
-    # dacă vrei să suprascrii local, poți folosi command: ...
 
 volumes:
   postgres_data:

@@ -8,3 +8,9 @@ def home(request):
         'page_title': 'Home',
     }
     return render(request, 'home.html', context)
+
+def menu(request):
+    context = {
+        'page_title': 'Menu',
+    }
+    return render(request, 'menu.html', context)

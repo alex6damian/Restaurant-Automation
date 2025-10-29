@@ -29,8 +29,5 @@ PY
 echo "Running migrations..."
 python manage.py migrate --noinput
 
-# opțional: colectează static (ignore dacă nu ai configurat)
-python manage.py collectstatic --noinput || true
-
-echo "Starting Django..."
+echo "Starting Django Server..."
 exec python manage.py runserver 0.0.0.0:8000

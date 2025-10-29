@@ -85,6 +85,10 @@ DATABASES = {
         "CONN_MAX_AGE": int(os.environ.get("CONN_MAX_AGE", 60)),
     }
 }
+
+# Custom User Model
+AUTH_USER_MODEL = 'restaurant.CustomUser'
+
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
 
